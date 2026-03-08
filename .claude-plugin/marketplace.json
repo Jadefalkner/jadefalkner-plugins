@@ -1,0 +1,26 @@
+{
+  "name": "claude-plugins",
+  "owner": {
+    "name": "Jadefalkner"
+  },
+  "metadata": {
+    "description": "Jadefalkner's Claude Code plugins"
+  },
+  "plugins": [
+    {
+      "name": "prettydiagrams",
+      "source": {
+        "source": "github",
+        "repo": "Jadefalkner/prettydiagrams",
+        "ref": "main"
+      },
+      "description": "Generate hand-drawn sketchnote diagrams using SVG blueprints and Kie.ai rendering",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jadefalkner"
+      },
+      "license": "MIT",
+      "keywords": ["diagrams", "svg", "sketchnote", "illustration", "kie.ai"]
+    }
+  ]
+}
